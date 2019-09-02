@@ -32,18 +32,10 @@ class BST {
   }
 }
 
-const bst = new BST(20);
-bst.insert(10);
-bst.insert(5);
-bst.insert(11);
-bst.insert(30);
-bst.insert(40);
-bst.insert(25);
-
 //       20
 //     /     \
 //   10       30
 //  /  \     /   \
 // 5    11  25   40
 
-module.exports = bst;
+module.exports = BST;

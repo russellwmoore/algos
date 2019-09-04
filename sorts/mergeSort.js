@@ -51,5 +51,3 @@ function mergeK(arr) {
 
   return merge(left, right);
 }
-
-console.log(mergeK(k));

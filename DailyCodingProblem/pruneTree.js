@@ -1,25 +1,28 @@
-// Given a binary tree where all nodes are either 0 or 1,
-// prune the tree so that subtrees containing all 0s are
-// removed.
+/*
+Given a binary tree where all nodes are either 0 or 1,
+prune the tree so that subtrees containing all 0s are
+removed.
 
-// For example, given the following tree:
+For example, given the following tree:
 
-//    0
-//   / \
-//  1   0
-//     / \
-//    1   0
-//   / \
-//  0   0
-// should be pruned to:
+   0
+  / \
+ 1   0
+    / \
+   1   0
+  / \
+ 0   0
+should be pruned to:
 
-//    0
-//   / \
-//  1   0
-//     /
-//    1
-// We do not remove the tree at the root or its left
-// child because it still has a 1 as a descendant.
+   0
+  / \
+ 1   0
+    /
+   1
+We do not remove the tree at the root or its left
+child because it still has a 1 as a descendant.
+
+Each node is an instance of the Tree class:
 
 class Tree {
   constructor(val) {
@@ -29,17 +32,7 @@ class Tree {
   }
 }
 
-const tree = new Tree(0);
-
-tree.left = new Tree(1);
-tree.right = new Tree(0);
-tree.right.left = new Tree(1);
-tree.right.right = new Tree(0);
-
-tree.right.left.right = new Tree(0);
-tree.right.left.left = new Tree(0);
-
-console.dir(tree, { depth: null });
+*/
 
 function prune(tree) {
   function helper(tree) {
@@ -58,8 +51,10 @@ function prune(tree) {
   }
 
   const isNull = helper(tree);
-  console.dir(tree, { depth: null });
+  // console.dir(tree, { depth: null });
   return isNull ? null : tree;
 }
 
-prune(tree);
+// prune(tree);
+
+module.exports = { prune };

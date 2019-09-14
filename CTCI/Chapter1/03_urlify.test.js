@@ -1,4 +1,4 @@
-const { urlify } = require('./urlify');
+const { urlify } = require('./03_urlify');
 
 describe('URLify', () => {
   let str = '  Mr. John Smith   ';

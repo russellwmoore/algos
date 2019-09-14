@@ -1,4 +1,4 @@
-const { isStringUnique, isStringUniqueSort } = require('./isUnique');
+const { isStringUnique, isStringUniqueSort } = require('./01_isUnique');
 
 function makeBigString(num) {
   const letters = [];

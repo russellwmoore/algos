@@ -1,4 +1,4 @@
-const { stringCompression } = require('./stringCompression');
+const { stringCompression } = require('./06_stringCompression');
 
 describe('stringCompression', () => {
   it('Returns a string', () => {

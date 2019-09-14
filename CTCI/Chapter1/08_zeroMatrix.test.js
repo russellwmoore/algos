@@ -1,4 +1,4 @@
-const { zeroMatrix } = require('./zeroMatrix');
+const { zeroMatrix } = require('./08_zeroMatrix');
 
 describe('Zero Matrix', () => {
   const data1 = [[1, 1, 1, 1, 1, 0], [0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]];

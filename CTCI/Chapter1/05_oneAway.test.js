@@ -1,4 +1,4 @@
-const { oneAway } = require('./oneAway');
+const { oneAway } = require('./05_oneAway');
 
 describe('oneAway', () => {
   it('Returns true for no edits', () => {

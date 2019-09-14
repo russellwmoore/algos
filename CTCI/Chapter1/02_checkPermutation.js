@@ -18,6 +18,8 @@ function checkPermutation(str1, str2) {
   return true;
 }
 
+checkPermutation('russell', 'lessurr');
+
 function checkPermutationSort(str1, str2) {
   if (str1.length !== str2.length) return false;
   if (str1 === str2) return true;

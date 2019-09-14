@@ -1,7 +1,7 @@
 const {
   checkPermutation,
   checkPermutationSort,
-} = require('./checkPermutation');
+} = require('./02_checkPermutation');
 
 describe('Check Permutation', () => {
   const string1 = 'asdfghjkl';

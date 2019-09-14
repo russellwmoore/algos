@@ -1,4 +1,4 @@
-const { palindromePermutation } = require('./palindromePermutation');
+const { palindromePermutation } = require('./04_palindromePermutation');
 
 describe('URLify', () => {
   it('Returns true for a blank string', () => {
